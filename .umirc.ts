@@ -9,8 +9,11 @@ export default defineConfig({
   publicPath: '/learn-antdpro/',
   exportStatic: {}, // 将所有路由输出为 HTML 目录结构，以免刷新页面时 404
   navs: [
-    null,
+    { title: 'React', path: '/react' },
+    { title: 'Ant Design', path: '/antd' },
+    { title: 'Ant Design Pro', path: 'https://beta-pro.ant.design/index-cn' },
     { title: 'GitHub', path: 'https://github.com/aLIEzsss4/learn-antdpro.git' },
   ],
+  locales: [['zh-CN', '中文'], ['en-US', 'English']]
   // more config: https://d.umijs.org/config
 });

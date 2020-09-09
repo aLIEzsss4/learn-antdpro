@@ -1,27 +1,24 @@
-# learn-antdpro
+# Ant Design Pro 下一代后台构建利器
 
-## Getting Started
+### 本文档会分别从`react` 、`antd` 、`antd pro`开始讲解，让你快速熟悉antd pro
 
-Install dependencies,
+## 快速开始
+
+安装依赖,
 
 ```bash
-$ npm i
+$ yarn install
 ```
 
-Start the dev server,
+开始调试,
 
 ```bash
-$ npm start
+$ yarn start
 ```
 
-Build documentation,
+构建产品
 
 ```bash
-$ npm run docs:build
-```
 
-Build library via `father-build`,
-
-```bash
-$ npm run build
+$ yarn build
 ```

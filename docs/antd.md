@@ -18,7 +18,15 @@ Ant Design React 致力于提供给程序员愉悦的开发体验。
 
 🎨 深入每个细节的主题定制能力。
 
-## 用法
+
+## 📌 组件列表
+ <img src="../public/antd.jpg" alt="antd" width="960" height="496">
+
+### 解决问题
+
+ CURD代表创建（Create）、更新（Update）、读取（Retrieve）和删除（Delete）操作。
+
+## 🏆 用法
 
 ### 引入antd
 
@@ -39,3 +47,11 @@ Ant Design React 致力于提供给程序员愉悦的开发体验。
 ### 自动完成
 
 <code src="./antd/demo-05.tsx" />
+
+### 分页
+
+<code src="./antd/demo-07.tsx" />
+
+### 表格
+
+<code src="./antd/demo-06.tsx" />
